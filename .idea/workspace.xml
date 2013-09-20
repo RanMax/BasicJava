@@ -15,15 +15,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9693c735-d805-437d-aa1b-6f2b2f735777" name="Default" comment="Добавление пакетов">
-      <change type="DELETED" beforePath="C:\Users\Shevchik\IdeaProjects\BasicJava\src\iu4\shewchik\TestClass3.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Shevchik\IdeaProjects\BasicJava\src\iu4\shewchik\Temp.java" afterPath="$PROJECT_DIR$/src/iu4/shevchik/Temp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BasicJava.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TestIterable.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1373545546685" ignored="false" />
     <file path="/HashMapExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1373547047984" ignored="false" />
     <file path="/SwingEx.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1373547769719" ignored="false" />
-    <file path="/Dummy.txt" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1379715967867" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1379716061861" ignored="false" />
+    <file path="/Dummy.txt" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1379716405373" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,9 +130,18 @@
         </entry>
       </file>
       <file leaf-file-name="Temp.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iu4/shewchik/Temp.java">
+        <entry file="file://$PROJECT_DIR$/src/iu4/shevchik/Temp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="13" selection-start="190" selection-end="190" vertical-scroll-proportion="0.17687862">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iu4/avitikov/DBConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/virtual_filesystem/TL.java" />
         <option value="$PROJECT_DIR$/src/virtual_filesystem/file_catalogs_comp/FileCatalog.java" />
         <option value="$PROJECT_DIR$/src/virtual_filesystem/test/CreateTable.java" />
         <option value="$PROJECT_DIR$/src/virtual_filesystem/lang/TL.java" />
@@ -199,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/TestIterable.java" />
         <option value="$PROJECT_DIR$/src/collections/HashMapExample.java" />
         <option value="$PROJECT_DIR$/src/swing_ex/SwingEx.java" />
+        <option value="$PROJECT_DIR$/src/iu4/shevchik/Temp.java" />
       </list>
     </option>
   </component>
@@ -243,6 +252,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -293,7 +304,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shewchik" />
+              <option name="myItemId" value="shevchik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,8 +390,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -398,12 +407,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.SwingEx">
     <configuration default="false" name="HashMapExample" type="Application" factoryName="Application" temporary="true">
@@ -647,7 +656,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1036" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1036" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.4909091" order="7" side_tool="false" content_ui="tabs" />
@@ -832,7 +841,14 @@
         <state line="16" column="133" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iu4/shewchik/Temp.java">
+    <entry file="file://$PROJECT_DIR$/src/iu4/avitikov/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iu4/shevchik/Temp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="190" selection-end="190" vertical-scroll-proportion="0.17687862">
           <folding />

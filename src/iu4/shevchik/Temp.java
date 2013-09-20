@@ -1,4 +1,4 @@
-package iu4.shewchik;
+package iu4.shevchik;
 
 /**
  * Created with IntelliJ IDEA.
