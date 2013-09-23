@@ -1,6 +1,8 @@
 package iu4.smurigin.sea_war.game_classes.swing;
 
-import ru.ivansmurygin.javabase.lesson7.ver1.game_classes.*;
+import iu4.smurigin.sea_war.game_classes.Cell;
+import iu4.smurigin.sea_war.game_classes.Field;
+import iu4.smurigin.sea_war.game_classes.Ships;
 
 import javax.swing.*;
 import java.awt.*;
