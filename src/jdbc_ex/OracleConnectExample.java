@@ -1,6 +1,8 @@
 package jdbc_ex;
 
 import java.sql.*;
+import java.util.Collection;
+import java.util.Map;
 
 /**
  * Created by IntelliJ IDEA.
