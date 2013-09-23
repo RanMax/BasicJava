@@ -49,7 +49,7 @@ public class HashMapExample {
         public Human(String name){
             this.name = name;
         }
-        public  String toString(){
+        public String toString(){
             return name;
         };
 

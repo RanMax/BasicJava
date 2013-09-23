@@ -1,7 +1,9 @@
 package iu4.sayapin.sea_wars;
 
+import java.io.IOException;
+
 public class SeaWars {
-    public static void main(String args[]) throws java.io.IOException {
+    public static void main(String args[]) throws IOException {
         int[] userChoice = {0, 0};
         char ignore;
 
