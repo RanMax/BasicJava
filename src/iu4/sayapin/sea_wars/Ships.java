@@ -1,3 +1,4 @@
+package iu4.sayapin.sea_wars;
 
 class Ship {
     private int ShipHealth;

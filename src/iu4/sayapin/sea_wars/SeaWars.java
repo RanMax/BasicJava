@@ -1,3 +1,4 @@
+package iu4.sayapin.sea_wars;
 
 public class SeaWars {
     public static void main(String args[]) throws java.io.IOException {
@@ -6,8 +7,8 @@ public class SeaWars {
 
         System.out.println("Starting...\n");
 
-        Field FieldPlayer = new Field("Player Field", false);
-        Field FieldBot = new Field("Bot Field", true);
+        Field FieldPlayer = new Field("Player iu4.sayapin.sea_wars.Field", false);
+        Field FieldBot = new Field("Bot iu4.sayapin.sea_wars.Field", true);
 
         FieldPlayer.FieldPlaceAllShips();
         FieldBot.FieldPlaceAllShips();

@@ -35,7 +35,7 @@ package org.hsqldb.lib.tar;
  * Purely static structure defining our interface to the Tar Entry Header.
  *
  * The fields controlled here are fields for the individual tar file entries
- * in an archive.  There is no such thing as a Header Field at the top archive
+ * in an archive.  There is no such thing as a Header iu4.sayapin.sea_wars.Field at the top archive
  * level.
  * <P>
  * We use header field names as they are specified in the FreeBSD man page for

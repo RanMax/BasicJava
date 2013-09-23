@@ -5183,9 +5183,9 @@ public class SqlFile {
                 prevOffset = offset;
                 if (s.length() < offset + 2
                         || s.charAt(offset + 1) != '"')
-                    // Field terminated
+                    // iu4.sayapin.sea_wars.Field terminated
                     continue SEEK_QUOTEDFIELD;
-                // Field-internal ""
+                // iu4.sayapin.sea_wars.Field-internal ""
                 prevOffset++;
                 sb.append('"');
             }

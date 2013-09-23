@@ -1,3 +1,4 @@
+package iu4.sayapin.sea_wars;
 
 public class Cell {
     private int CellStatus; // 0 - Free; 1 - ShipPlaced; 2 - Near Ship; 3- Destroid; 4 - Hint
