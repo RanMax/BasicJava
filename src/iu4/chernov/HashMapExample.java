@@ -4,11 +4,9 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Maxim
  * Date: 23.09.13
  * Time: 20:09
- * To change this template use File | Settings | File Templates.
  */
 public class HashMapExample {
     public static void main (String[] args){

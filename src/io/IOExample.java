@@ -4,11 +4,9 @@ import java.io.*;
 import java.nio.channels.FileChannel;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 19.12.12
  * Time: 8:16
- * To change this template use File | Settings | File Templates.
  */
 public class IOExample {
     public static void main(String[] args) throws Exception{

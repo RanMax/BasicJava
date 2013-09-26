@@ -4,11 +4,9 @@ import java.io.File;
 import java.nio.file.Files;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 19.12.12
  * Time: 11:25
- * To change this template use File | Settings | File Templates.
  */
 /* Копирование и перемещение файла с использованием класса Files*/
 public class CopyAndMoveFileExample2 {

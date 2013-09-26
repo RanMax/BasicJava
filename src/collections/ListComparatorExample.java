@@ -1,13 +1,11 @@
-package arrays;
+package collections;
 
 import java.util.*;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 19.12.12
  * Time: 13:45
- * To change this template use File | Settings | File Templates.
  */
 public class ListComparatorExample {
     public static void main(String[] args){
@@ -16,10 +14,10 @@ public class ListComparatorExample {
     }
 
     public void run(){
-        ArrayList<MyObject> list = new ArrayList<MyObject>();
-        MyObject obj1 = new MyObject("Ivan","Smuriegin",23);
-        MyObject obj2 = new MyObject("Vsevolod","Sayapin",24);
-        MyObject obj3 = new MyObject("Maxim","Chernov", 22);
+        ArrayList<Human> list = new ArrayList<Human>();
+        Human obj1 = new Human("Ivan","Smuriegin",23);
+        Human obj2 = new Human("Vsevolod","Sayapin",24);
+        Human obj3 = new Human("Maxim","Chernov", 22);
 
         list.add(obj1);
         list.add(obj2);
@@ -37,19 +35,19 @@ public class ListComparatorExample {
         print(list);
     }
 
-    public void print(List<MyObject> list){
-        for (MyObject obj: list){
+    public void print(List<Human> list){
+        for (Human obj: list){
             System.out.println(obj.toString());
         }
         System.out.println();
     }
 
-public class MyObject implements Comparable<MyObject>{
+public class Human implements Comparable<Human>{
     private String firstName;
     private String secondName;
     private Integer age;
 
-    public MyObject(String firstName, String secondName, Integer age){
+    public Human(String firstName, String secondName, Integer age){
         this.firstName = firstName;
         this.secondName = secondName;
         this.age = age;
@@ -67,21 +65,21 @@ public class MyObject implements Comparable<MyObject>{
         return firstName + " " + secondName + " age:" + age;
     }
 
-    public int compareTo(MyObject o) {
+    public int compareTo(Human o) {
         return age.compareTo(o.age);
     }
 }
 
-public class MyComparator1 implements Comparator<MyObject> {
+public class MyComparator1 implements Comparator<Human> {
 
-    public int compare(MyObject o1, MyObject o2) {
+    public int compare(Human o1, Human o2) {
         return o1.getFirstName().compareTo(o2.getFirstName());
     }
 }
 
-public class MyComparator2 implements Comparator<MyObject> {
+public class MyComparator2 implements Comparator<Human> {
 
-    public int compare(MyObject o1, MyObject o2) {
+    public int compare(Human o1, Human o2) {
         return o1.getSecondName().compareTo(o2.getSecondName());
     }
 }

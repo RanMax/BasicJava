@@ -3,11 +3,9 @@ package collections;
 import java.util.HashSet;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 17.12.12
  * Time: 17:45
- * To change this template use File | Settings | File Templates.
  */
 /* Примерр класса, реализующего интерфейс Iterable*/
 public class IterableCollectionExample {

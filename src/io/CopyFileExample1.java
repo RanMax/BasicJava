@@ -7,11 +7,9 @@ import java.nio.channels.FileChannel;
 import java.nio.file.Files;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 19.12.12
  * Time: 11:16
- * To change this template use File | Settings | File Templates.
  */
 /* Копирование файла с использованием FileInput/OutputStream, FileChannel*/
 public class CopyFileExample1 {

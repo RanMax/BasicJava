@@ -3,11 +3,9 @@ package io;
 import java.io.File;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 19.12.12
  * Time: 15:28
- * To change this template use File | Settings | File Templates.
  */
 /* Пример использования класса File*/
 public class FileExample {

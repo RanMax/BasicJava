@@ -4,11 +4,9 @@ import java.util.Collection;
 import java.util.HashMap;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 19.12.12
  * Time: 17:08
- * To change this template use File | Settings | File Templates.
  */
 /* Пример использования коллекции HashMap*/
 public class HashMapExample {
