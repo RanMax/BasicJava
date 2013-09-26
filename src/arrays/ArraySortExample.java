@@ -4,11 +4,9 @@ import java.util.Arrays;
 import java.util.Collections;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 19.12.12
  * Time: 12:41
- * To change this template use File | Settings | File Templates.
  */
 /* Сортировка массива с помощью Arrays*/
 public class ArraySortExample {

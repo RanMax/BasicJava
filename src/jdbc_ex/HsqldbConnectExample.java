@@ -3,11 +3,9 @@ package jdbc_ex;
 import java.sql.*;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 19.12.12
  * Time: 9:08
- * To change this template use File | Settings | File Templates.
  */
 /* Пример подключения к HSQLDB*/
 public class HsqldbConnectExample {

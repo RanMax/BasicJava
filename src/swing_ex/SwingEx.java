@@ -4,11 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 20.12.12
  * Time: 12:33
- * To change this template use File | Settings | File Templates.
  */
 public class SwingEx {
     public static void main(String[] args){

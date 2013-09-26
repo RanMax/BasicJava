@@ -5,11 +5,9 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * Created by IntelliJ IDEA.
  * User: Maxim
  * Date: 17.12.12
  * Time: 16:04
- * To change this template use File | Settings | File Templates.
  */
 /* Пример подключения к Oracle*/
 public class OracleConnectExample {
