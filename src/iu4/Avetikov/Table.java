@@ -1,5 +1,12 @@
 package iu4.Avetikov;
 
+import iu4.Avetikov.Factory.TableFactory;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 /**
  * Created by IntelliJ IDEA.
  * User: Mr. Avetik
@@ -8,35 +15,60 @@ package iu4.Avetikov;
  * To change this template use File | Settings | File Templates.
  */
 public class Table{
-    private int id;
-    private String gorod;
-    private String region;
+    protected static Connection connection;
+    protected static Statement statement;
+    protected String query;
+    private TableFactory tableFactory;
 
-    public Table(){
-        this.id = 0;
-        this.gorod = "";
-        this.region = "";
+    public Table(){}
+
+    public Table(TableFactory tableFactory){
+        this.tableFactory = tableFactory;
     }
 
-    public Table(int id, String gorod, String region){
-        this.id = id;
-        this.gorod = gorod;
-        this.region = region;
+    public Table getTable(String type){
+        Table table = (this.tableFactory).getTable(type);
+        return table;
     }
 
-    public int GetId(){
-        return this.id;
+    protected void getRow() throws SQLException {
+
+        try {
+            Class.forName("org.hsqldb.jdbcDriver");
+        	} catch (ClassNotFoundException e) {
+        	    System.err.println("Нe удалось загрузить драйвер ДБ.");
+        	    e.printStackTrace();
+        		System.exit(1);
+        }
+
+        try {
+        	connection = DriverManager.getConnection("jdbc:hsqldb:file:dbpath/dbname", "SA", "");
+        } catch (SQLException e) {
+        	System.err.println("Нe удалось cоздать соединение.");
+        	e.printStackTrace();
+        	System.exit(1);
+        }
+
+        try {
+        	statement = connection.createStatement();
+
+        	try {
+        		statement.execute(query);
+        	} catch (SQLException e) {
+                System.err.println("Не получилось...");
+                e.printStackTrace();
+                System.exit(1);
+            }
+        }catch (SQLException e){
+            try{
+            statement.close();
+            connection.close();
+            } catch (SQLException ex) {}
+            System.err.println("Косяк...");
+            e.printStackTrace();
+            System.exit(1);
+        }
     }
 
-    public String GetGorod(){
-        return this.gorod;
-    }
-
-    public String GetRegion(){
-        return this.region;
-    }
-
-    public String toString(){
-        return this.id+" "+this.gorod+" "+this.region;
-    }
+    public String toString() { return null; }
 }
