@@ -7541,7 +7541,7 @@ public class JDBCResultSet implements ResultSet {
     }
 
     /**
-     * Factory method returns a new <code>JDBCResultSet</code> object for
+     * factory method returns a new <code>JDBCResultSet</code> object for
      * use with user defined functions that retrun a ResultSet object.
      * See <code>org.hsqldb.jdbc.JDBCArrayBasic</code> for usage example.
      * <p>

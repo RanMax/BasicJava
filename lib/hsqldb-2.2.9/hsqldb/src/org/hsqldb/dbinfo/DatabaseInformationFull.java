@@ -2953,7 +2953,7 @@ extends org.hsqldb.dbinfo.DatabaseInformationMain {
      *      *lt;search condition&gt; of the constraint being described, or
      *      its columns.
      *
-     * <1i> Tables are reported only if the user or one of its roles is
+     * <1i> tables are reported only if the user or one of its roles is
      *      the authorization (owner) of the table.
      * </ol>
      *
@@ -3023,7 +3023,7 @@ extends org.hsqldb.dbinfo.DatabaseInformationMain {
      * <li> The value of OBJECT_TYPE is the type of the object, for example
      *      'TABLE'.
      *
-     * <1i> Tables are reported only if the user or one of its roles is
+     * <1i> tables are reported only if the user or one of its roles is
      *      the authorization (owner) of the table.
      * </ol>
      *
@@ -4146,7 +4146,7 @@ extends org.hsqldb.dbinfo.DatabaseInformationMain {
      * <li> The value of OBJECT_TYPE is the type of the object, for example
      *      'TABLE'.
      *
-     * <1i> Tables are reported only if the user or one of its roles is
+     * <1i> tables are reported only if the user or one of its roles is
      *      the authorization (owner) of the table.
      * </ol>
      *
@@ -5548,7 +5548,7 @@ extends org.hsqldb.dbinfo.DatabaseInformationMain {
      *      identifier, respectively, of a TABLE
      *      reference in the routine body.<>
      *
-     * <1i> Tables are reported only if the user or one of its roles is
+     * <1i> tables are reported only if the user or one of its roles is
      *      the authorization (owner) of the TABLE.
      *
      * </ol>

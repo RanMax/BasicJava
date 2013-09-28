@@ -3113,7 +3113,7 @@ public class JDBCConnection implements Connection {
 // --------------------------- Added: Mustang Build 80 -------------------------
 
     /**
-     *  Factory method for creating Array objects.
+     *  factory method for creating Array objects.
      * <p>
      *  <b>Note: </b>When <code>createArrayOf</code> is used to create an array object
      *  that maps to a primitive data type, then it is implementation-defined
@@ -3179,7 +3179,7 @@ public class JDBCConnection implements Connection {
 //#endif JAVA6
 
     /**
-     * Factory method for creating Struct objects.
+     * factory method for creating Struct objects.
      * @param typeName the SQL type name of the SQL structured type that this <code>Struct</code>
      * object maps to. The typeName is the name of  a user-defined type that
      * has been defined for this database. It is the value returned by

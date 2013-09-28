@@ -782,7 +782,7 @@ public class Table extends TableBase implements SchemaObject {
     }
 
     /**
-     * Text or Cached Tables are normally file based
+     * Text or Cached tables are normally file based
      */
     public boolean isFileBased() {
         return isCached || isText;

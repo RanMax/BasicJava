@@ -1,10 +1,7 @@
 package iu4.Avetikov;
 
-import iu4.Avetikov.Factory.TableFactory;
-import org.hsqldb.HsqlDateTime;
-
-import java.sql.*;
-import java.util.ArrayList;
+import iu4.Avetikov.factory.TableFactory;
+import iu4.Avetikov.crm_elem.ContractFactory;
 
 /**
  * Created by IntelliJ IDEA.
@@ -95,5 +92,7 @@ public class DBConnection {
         table.getTable("TariffPlan");
         table.getTable("MarketingCategory");
         table.getTable("CalculationMethod");
+
+        System.out.println(Factory.getObject(12, ContractFactory.TYPE));
 	}
 }

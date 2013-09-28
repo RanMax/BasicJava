@@ -1,4 +1,4 @@
-package iu4.Avetikov.Tables;
+package iu4.Avetikov.tables;
 import iu4.Avetikov.Table;
 
 import java.sql.Date;

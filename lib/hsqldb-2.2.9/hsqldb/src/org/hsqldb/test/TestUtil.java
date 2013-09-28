@@ -345,7 +345,7 @@ public class TestUtil {
     }
 
     /**
-     * Factory method to create appropriate parsed section class for the section
+     * factory method to create appropriate parsed section class for the section
      * @param aSection Vector containing the section of script
      * @return a ParesedSection object
      */
