@@ -1,7 +1,7 @@
-package iu4.Avetikov;
+package iu4.avetikov;
 
-import iu4.Avetikov.factory.TableFactory;
-import iu4.Avetikov.crm_elem.ContractFactory;
+import iu4.avetikov.crm_elem.ContractFactory;
+import iu4.avetikov.factory.TableFactory;
 
 /**
  * Created by IntelliJ IDEA.
@@ -82,7 +82,7 @@ public class DBConnection {
 			e.printStackTrace();
 		}*/
 
-        TableFactory tableFactory = new TableFactory();
+        iu4.avetikov.factory.TableFactory tableFactory = new TableFactory();
         Table table = new Table(tableFactory);
         table.getTable("TerminalDevice");
         table.getTable("PersonalAccountTD");
