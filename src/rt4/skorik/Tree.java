@@ -74,9 +74,9 @@ public class Tree {
     System.out.println("Now the size of tree set: " + tree.size());
     //--------------------------------------------------------------------------
     
-    Integer i;
-    i = iterator.next();
-    i.compareTo(i);
+    //Integer i;
+    //i = iterator.next();
+    //i.compareTo(i);
     iterator = tree.iterator();
     //String i = iterator.next();
     System.out.println(iterator.next());
