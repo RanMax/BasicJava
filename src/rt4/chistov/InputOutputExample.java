@@ -13,6 +13,17 @@ import java.util.Collections;
  */
 public class InputOutputExample {
     public static void main(String[] args){
-       File file=new File("E/:File") ;
+        int[] mas = {1,2,3,100,2000};
+        for (int i = 0; i < mas.length; i++){
+            System.out.println(mas[i]);
+        }
+        //for (int )
+
+       File file=new File("E://Photo_Video") ;
+        String[] str = file.list();
+        for (int i = 0; i < str.length; i++){
+            System.out.println(str[i]);
+        }
+        System.out.print("Hello world!");
     }
 }
