@@ -1,5 +1,5 @@
-package iu4.Avetikov.tables;
-import iu4.Avetikov.Table;
+package iu4.avetikov.tables;
+import iu4.avetikov.Table;
 
 import java.sql.Date;
 import java.sql.ResultSet;

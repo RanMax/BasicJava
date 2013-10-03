@@ -1,6 +1,6 @@
-package iu4.Avetikov;
+package iu4.avetikov;
 
-import iu4.Avetikov.factory.TableFactory;
+import iu4.avetikov.factory.TableFactory;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

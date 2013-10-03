@@ -1,6 +1,5 @@
-package iu4.Avetikov.crm_elem;
+package iu4.avetikov.crm_elem;
 
-import javax.print.attribute.standard.DateTimeAtCompleted;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

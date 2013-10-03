@@ -1,13 +1,11 @@
-package iu4.Avetikov;
+package iu4.avetikov;
 
-import iu4.Avetikov.crm_elem.CrmElemFactory;
-import iu4.Avetikov.crm_elem.PersonalAccountFactory;
-import iu4.Avetikov.crm_elem.TerminalDeviceFactory;
-import iu4.Avetikov.factory.TableFactory;
-import iu4.Avetikov.crm_elem.ContractFactory;
+import iu4.avetikov.crm_elem.CrmElemFactory;
+import iu4.avetikov.crm_elem.PersonalAccountFactory;
+import iu4.avetikov.crm_elem.TerminalDeviceFactory;
+import iu4.avetikov.crm_elem.ContractFactory;
 
 import java.sql.*;
-import java.util.ArrayList;
 
 /**
  * Created by IntelliJ IDEA.

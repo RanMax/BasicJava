@@ -1,4 +1,4 @@
-package iu4.Avetikov.crm_elem;
+package iu4.avetikov.crm_elem;
 
 import java.sql.Date;
 import java.sql.ResultSet;

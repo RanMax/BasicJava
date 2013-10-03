@@ -1,7 +1,7 @@
-package iu4.Avetikov.factory;
+package iu4.avetikov.factory;
 
-import iu4.Avetikov.Table;
-import iu4.Avetikov.tables.*;
+import iu4.avetikov.Table;
+import iu4.avetikov.tables.*;
 
 /**
  * Created with IntelliJ IDEA.
