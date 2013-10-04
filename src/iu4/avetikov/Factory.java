@@ -18,7 +18,7 @@ public class Factory {
     HashMap<String,CrmElemFactory> factories = new HashMap<String, CrmElemFactory>();
 
 
-    public static CrmElemFactory.CrmElemInt getObject(Integer id, String type){
+    public static CrmElemFactory.CrmElemInt getObject(Long id, String type){
         if (factory == null) factory = new Factory();
         return factory.getIntObject(id,type);
     }
@@ -30,7 +30,7 @@ public class Factory {
 
     }
 
-   private CrmElemFactory.CrmElemInt getIntObject(Integer id, String type){
+   private CrmElemFactory.CrmElemInt getIntObject(Long id, String type){
         return factories.get(type).getCrmElem(id,type);
     }
 }

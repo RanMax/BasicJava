@@ -9,10 +9,10 @@ import java.sql.SQLException;
  */
 public interface CrmElemFactory {
 
-    public CrmElemInt getCrmElem(Integer id, String Type);
+    public CrmElemInt getCrmElem(Long id, String Type);
 
     public interface CrmElemInt{
-        Integer getId();
+        Long getId();
         void getRow() throws SQLException;
     }
 }

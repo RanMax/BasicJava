@@ -16,12 +16,12 @@ public abstract class AbstractFactory implements CrmElemFactory {
         protected Connection connection;
         protected Statement statement;
         protected String query;
-        protected Integer id;
+        protected Long id;
 
-        public AbstractCrmElem(Integer id){
+        public AbstractCrmElem(Long id){
             this.id = id;
         }
-        public Integer getId(){
+        public Long getId(){
             return id;
         }
         public void getRow() throws SQLException {

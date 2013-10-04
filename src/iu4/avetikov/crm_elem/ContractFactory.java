@@ -1,6 +1,6 @@
 package iu4.avetikov.crm_elem;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -12,17 +12,17 @@ import java.sql.SQLException;
 public class ContractFactory extends AbstractFactory {
     public static String TYPE = "Contract";
 
-    public CrmElemInt getCrmElem(Integer id, String Type) {
+    public CrmElemInt getCrmElem(Long id, String Type) {
         return new Contract(id);
     }
 
     public class Contract extends AbstractCrmElem {
-        private Date dateFrom;
-        private Date dateTo;
+        private Timestamp dateFrom;
+        private Timestamp dateTo;
         private String contractNumber;
-        private Integer marketingCategoryID;
+        private Long marketingCategoryID;
 
-        public Contract(Integer id){
+        public Contract(Long id){
             super(id);
             this.dateFrom = null;
             this.dateTo = null;
@@ -40,10 +40,10 @@ public class ContractFactory extends AbstractFactory {
                 }
                 ResultSet resultSet = statement.executeQuery(this.query);
                 while (resultSet.next()){
-                    this.dateFrom = resultSet.getDate("dateFrom");
-                    this.dateTo = resultSet.getDate("dateTo");
+                    this.dateFrom = resultSet.getTimestamp("dateFrom");
+                    this.dateTo = resultSet.getTimestamp("dateTo");
                     this.contractNumber = resultSet.getString("contractNumber");
-                    this.marketingCategoryID = resultSet.getInt("marketingCategoryID");
+                    this.marketingCategoryID = resultSet.getLong("marketingCategoryID");
                 }
             }catch (SQLException e) {
                 System.err.println("Не получилось...");
@@ -60,19 +60,19 @@ public class ContractFactory extends AbstractFactory {
                     " || "+this.contractNumber+" || "+this.marketingCategoryID;
         }
 
-        public Integer getContractID() { return this.id; }
-        public void setContractID(Integer id){ this.id = id; }
+        public Long getContractID() { return this.id; }
+        public void setContractID(Long id){ this.id = id; }
 
-        public Date getDateFrom() { return this.dateFrom; }
-        public void setDateFrom(Date dateFrom) { this.dateFrom = dateFrom; }
+        public Timestamp getDateFrom() { return this.dateFrom; }
+        public void setDateFrom(Timestamp dateFrom) { this.dateFrom = dateFrom; }
 
-        public Date getDateTo() { return this.dateTo; }
-        public void setDateTo(Date dateTo) { this.dateTo = dateTo; }
+        public Timestamp getDateTo() { return this.dateTo; }
+        public void setDateTo(Timestamp dateTo) { this.dateTo = dateTo; }
 
         public String getContractNumber() { return  this.contractNumber; }
         public  void  setContractNumber(String contractNumber) { this.contractNumber = contractNumber; }
 
-        public Integer getMarketingCategoryID() { return this.marketingCategoryID; }
-        public void setMarketingCategoryID(Integer marketingCategoryID) { this.marketingCategoryID = marketingCategoryID; }
+        public Long getMarketingCategoryID() { return this.marketingCategoryID; }
+        public void setMarketingCategoryID(Long marketingCategoryID) { this.marketingCategoryID = marketingCategoryID; }
     }
 }
