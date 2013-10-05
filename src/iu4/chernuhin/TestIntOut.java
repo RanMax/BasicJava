@@ -8,4 +8,7 @@ package iu4.chernuhin;
  * To change this template use File | Settings | File Templates.
  */
 public class TestIntOut {
+    public static void main(String[] args){
+        System.out.println("Hello world");
+    }
 }
