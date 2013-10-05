@@ -5,7 +5,10 @@ import iu4.avetikov.crm_elem.PersonalAccountFactory;
 import iu4.avetikov.crm_elem.TerminalDeviceFactory;
 import iu4.avetikov.crm_elem.ContractFactory;
 
+import javax.swing.*;
+import javax.swing.tree.*;
 import java.sql.*;
+import java.util.Enumeration;
 
 /**
  * Created by IntelliJ IDEA.
@@ -260,5 +263,17 @@ public class DBConnection {
         System.out.println("Contract: " + crmElemInt1);
         System.out.println("PersonalAccount: " + crmElemInt2);
         System.out.println("TerminalDevice: " + crmElemInt3);
+
+        DefaultMutableTreeNode root = new DefaultMutableTreeNode(crmElemInt1);
+        DefaultMutableTreeNode node1 = new DefaultMutableTreeNode(crmElemInt2);
+        DefaultMutableTreeNode node2 = new DefaultMutableTreeNode(crmElemInt3);
+        node1.add(node2);
+        root.add(node1);
+        TreeModel root2 = new DefaultTreeModel(root);
+        JTree tree = new JTree(root2);
+        JFrame frame = new JFrame("ТестДерева");
+        frame.add(tree);
+        frame.setSize(tree.getSize());
+        frame.show();
 	}
 }

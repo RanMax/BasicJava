@@ -19,7 +19,7 @@ public class ContractFactory extends AbstractFactory {
     public class Contract extends AbstractCrmElem {
         private Timestamp dateFrom;
         private Timestamp dateTo;
-        private String contractNumber;
+        private Long contractNumber;
         private Long marketingCategoryID;
 
         public Contract(Long id){
@@ -42,7 +42,7 @@ public class ContractFactory extends AbstractFactory {
                 while (resultSet.next()){
                     this.dateFrom = resultSet.getTimestamp("dateFrom");
                     this.dateTo = resultSet.getTimestamp("dateTo");
-                    this.contractNumber = resultSet.getString("contractNumber");
+                    this.contractNumber = resultSet.getLong("contractNumber");
                     this.marketingCategoryID = resultSet.getLong("marketingCategoryID");
                 }
             }catch (SQLException e) {
@@ -56,8 +56,8 @@ public class ContractFactory extends AbstractFactory {
         }
 
         public String toString(){
-            return this.id+" || "+this.dateFrom+" || "+this.dateTo+
-                    " || "+this.contractNumber+" || "+this.marketingCategoryID;
+            return this.id+" | "+this.dateFrom+" | "+this.dateTo+
+                    " | "+this.contractNumber+" | "+this.marketingCategoryID;
         }
 
         public Long getContractID() { return this.id; }
@@ -69,8 +69,8 @@ public class ContractFactory extends AbstractFactory {
         public Timestamp getDateTo() { return this.dateTo; }
         public void setDateTo(Timestamp dateTo) { this.dateTo = dateTo; }
 
-        public String getContractNumber() { return  this.contractNumber; }
-        public  void  setContractNumber(String contractNumber) { this.contractNumber = contractNumber; }
+        public Long getContractNumber() { return  this.contractNumber; }
+        public  void  setContractNumber(Long contractNumber) { this.contractNumber = contractNumber; }
 
         public Long getMarketingCategoryID() { return this.marketingCategoryID; }
         public void setMarketingCategoryID(Long marketingCategoryID) { this.marketingCategoryID = marketingCategoryID; }

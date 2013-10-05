@@ -57,8 +57,8 @@ public class TerminalDeviceFactory extends AbstractFactory {
         }
 
         public String toString(){
-            return this.id+" || "+this.dateFrom+" || "+this.dateTo+
-                    " || "+this.tariffPlanID+" || "+this.msisdn;
+            return this.id+" | "+this.dateFrom+" | "+this.dateTo+
+                    " | "+this.tariffPlanID+" | "+this.msisdn;
         }
 
         public Long getTerminalDeviceID() { return this.id; }

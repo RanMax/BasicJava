@@ -20,7 +20,7 @@ public class PersonalAccountFactory extends AbstractFactory {
     public class PersonalAccount extends AbstractCrmElem{
         private Timestamp dateFrom;
         private Timestamp dateTo;
-        private String personalAccountNumber;
+        private Long personalAccountNumber;
         private Long calculationMethodID;
 
         public PersonalAccount(Long id) {
@@ -43,7 +43,7 @@ public class PersonalAccountFactory extends AbstractFactory {
                 while (resultSet.next()){
                     this.dateFrom = resultSet.getTimestamp("dateFrom");
                     this.dateTo = resultSet.getTimestamp("dateTo");
-                    this.personalAccountNumber = resultSet.getString("personalAccountNumber");
+                    this.personalAccountNumber = resultSet.getLong("personalAccountNumber");
                     this.calculationMethodID = resultSet.getLong("calculationMathodID");
                 }
             }catch (SQLException e) {
@@ -57,8 +57,8 @@ public class PersonalAccountFactory extends AbstractFactory {
         }
 
         public String toString(){
-            return this.id+" || "+this.dateFrom+" || "+this.dateTo+
-                    " || "+this.personalAccountNumber+" || "+this.calculationMethodID;
+            return this.id+" | "+this.dateFrom+" | "+this.dateTo+
+                    " | "+this.personalAccountNumber+" | "+this.calculationMethodID;
         }
 
         public Long getPersonalAccountID() { return this.id; }
@@ -70,8 +70,8 @@ public class PersonalAccountFactory extends AbstractFactory {
         public Timestamp getDateTo() { return this.dateTo; }
         public void setDateTo(Timestamp dateTo) { this.dateTo = dateTo; }
 
-        public String getPersonalAccountNumber() { return this.personalAccountNumber; }
-        public void setPersonalAccountNumber(String personalAccountNumber) { this.personalAccountNumber = personalAccountNumber; }
+        public Long getPersonalAccountNumber() { return this.personalAccountNumber; }
+        public void setPersonalAccountNumber(Long personalAccountNumber) { this.personalAccountNumber = personalAccountNumber; }
 
         public Long getCalculationMethodID(){ return this.calculationMethodID; }
         public void setCalculationMethodID(Long calculationMethodID){ this.calculationMethodID = calculationMethodID; }
