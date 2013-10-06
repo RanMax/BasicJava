@@ -7,6 +7,7 @@ import java.util.*;
  * Date: 19.12.12
  * Time: 13:45
  */
+
 public class ListComparatorExample {
     public static void main(String[] args){
         ListComparatorExample example = new ListComparatorExample();

@@ -9,7 +9,7 @@ import java.nio.file.Files;
  * Time: 11:25
  */
 /* Копирование и перемещение файла с использованием класса Files*/
-public class CopyAndMoveFileExample2 {
+public class CopyAndMoveFileExample {
     public static void main(String[] args) throws Exception{
         File sourceFile = new File("D:/test1.jpg");
         File targetFile = new File("D:/test2.jpg");

@@ -7,7 +7,7 @@ import java.util.TreeSet;
  * Date: 18.12.12
  * Time: 16:56
  */
-/* Использование интерфейса Comparable для перебора элементов*/
+/* Использование интерфейса Comparable для сортировки элементов*/
 public class ComparableExample {
     public static void main(String[] args){
         ComparableExample ex = new ComparableExample();

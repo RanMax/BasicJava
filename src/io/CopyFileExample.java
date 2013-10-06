@@ -12,7 +12,7 @@ import java.nio.file.Files;
  * Time: 11:16
  */
 /* Копирование файла с использованием FileInput/OutputStream, FileChannel*/
-public class CopyFileExample1 {
+public class CopyFileExample {
     public static void main(String[] args) throws Exception{
         FileChannel source = null;
         FileChannel target = null;

@@ -7,7 +7,7 @@ import java.util.HashSet;
  * Date: 17.12.12
  * Time: 17:45
  */
-/* Примерр класса, реализующего интерфейс Iterable*/
+/* Пример класса, реализующего интерфейс Iterable*/
 public class IterableCollectionExample {
     public static void main(String[] args){
         HashSet<String> stringSet = new HashSet<String>();
