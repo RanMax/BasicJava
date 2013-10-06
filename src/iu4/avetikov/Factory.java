@@ -5,6 +5,7 @@ import iu4.avetikov.crm_elem.CrmElemFactory;
 import iu4.avetikov.crm_elem.PersonalAccountFactory;
 import iu4.avetikov.crm_elem.TerminalDeviceFactory;
 
+import java.sql.Timestamp;
 import java.util.HashMap;
 
 /**
@@ -30,7 +31,7 @@ public class Factory {
 
     }
 
-   private CrmElemFactory.CrmElemInt getIntObject(Long id, String type){
+    private CrmElemFactory.CrmElemInt getIntObject(Long id, String type){
         return factories.get(type).getCrmElem(id,type);
     }
 }

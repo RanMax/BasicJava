@@ -29,11 +29,12 @@ public class PersonalAccountFactory extends AbstractFactory {
             this.dateTo = null;
             this.personalAccountNumber = null;
             this.calculationMethodID = null;
-            System.out.println("PersonalAccount class");
         }
 
         public void getRow() throws SQLException {
             super.getRow();
+            this.connection = super.connection;
+            this.statement = super.statement;
 
             try{
                 if (this.query == null){
@@ -50,14 +51,21 @@ public class PersonalAccountFactory extends AbstractFactory {
                 System.err.println("Не получилось...");
                 e.printStackTrace();
                 System.exit(1);
-            }finally {
-                statement.close();
-                connection.close();
             }
         }
 
+        public void getRow(Timestamp date) throws SQLException {
+            super.getRow();
+            this.query = "SELECT pa.* " +
+                         "  FROM PersonalAccount pa " +
+                         " WHERE pa.personalAccountID = "+this.id+" " +
+                         "   and pa.dateFrom < '"+date+"' " +
+                         "   and COALESCE(pa.dateTo, CURRENT_DATE) > '"+date+"';";
+            this.getRow();
+        }
+
         public String toString(){
-            return this.id+" | "+this.dateFrom+" | "+this.dateTo+
+            return "PA: "+this.id+" | "+this.dateFrom+" | "+this.dateTo+
                     " | "+this.personalAccountNumber+" | "+this.calculationMethodID;
         }
 

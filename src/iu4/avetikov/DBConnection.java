@@ -1,9 +1,6 @@
 package iu4.avetikov;
 
-import iu4.avetikov.crm_elem.CrmElemFactory;
-import iu4.avetikov.crm_elem.PersonalAccountFactory;
-import iu4.avetikov.crm_elem.TerminalDeviceFactory;
-import iu4.avetikov.crm_elem.ContractFactory;
+import iu4.avetikov.crm_elem.*;
 
 import javax.swing.*;
 import javax.swing.tree.*;
@@ -260,20 +257,20 @@ public class DBConnection {
             e.printStackTrace();
             System.exit(1);
         }
-        System.out.println("Contract: " + crmElemInt1);
-        System.out.println("PersonalAccount: " + crmElemInt2);
-        System.out.println("TerminalDevice: " + crmElemInt3);
+        System.out.println(crmElemInt1);
+        System.out.println(crmElemInt2);
+        System.out.println(crmElemInt3);
 
-        DefaultMutableTreeNode root = new DefaultMutableTreeNode(crmElemInt1);
-        DefaultMutableTreeNode node1 = new DefaultMutableTreeNode(crmElemInt2);
-        DefaultMutableTreeNode node2 = new DefaultMutableTreeNode(crmElemInt3);
-        node1.add(node2);
-        root.add(node1);
-        TreeModel root2 = new DefaultTreeModel(root);
-        JTree tree = new JTree(root2);
-        JFrame frame = new JFrame("ТестДерева");
-        frame.add(tree);
-        frame.setSize(tree.getSize());
-        frame.show();
+        try{
+            JTree tree = new JTree(crmElemInt1.getTree(Timestamp.valueOf("2013-09-01 01:00:00.0")));
+            JFrame frame = new JFrame("ТестДерева");
+            frame.add(tree);
+            frame.setSize(600,300);
+            frame.show();
+        }catch (SQLException e){
+            System.err.println("Дерево...");
+            e.printStackTrace();
+            System.exit(1);
+        }
 	}
 }
