@@ -3,6 +3,7 @@ package iu4.avetikov.crm_elem;
 import java.sql.Timestamp;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 /**
  * User: Mr. Avetik
@@ -28,17 +29,18 @@ public class ContractFactory extends AbstractFactory {
             this.dateTo = null;
             this.contractNumber = null;
             this.marketingCategoryID = null;
-            System.out.println("Contract class");
         }
 
         public void getRow() throws SQLException {
             super.getRow();
+            this.connection = super.connection;
+            this.statement = super.statement;
 
             try{
                 if (this.query == null){
                     this.query = "SELECT * FROM Contract c WHERE c.contractID = "+this.id+" and c.dateTo is null";
                 }
-                ResultSet resultSet = statement.executeQuery(this.query);
+                ResultSet resultSet = this.statement.executeQuery(this.query);
                 while (resultSet.next()){
                     this.dateFrom = resultSet.getTimestamp("dateFrom");
                     this.dateTo = resultSet.getTimestamp("dateTo");
@@ -49,14 +51,21 @@ public class ContractFactory extends AbstractFactory {
                 System.err.println("Не получилось...");
                 e.printStackTrace();
                 System.exit(1);
-            }finally {
-                statement.close();
-                connection.close();
             }
         }
 
+        public void getRow(Timestamp date) throws SQLException {
+            super.getRow();
+            this.query = "SELECT c.* " +
+                         "  FROM Contract c " +
+                         " WHERE c.contractID = "+this.id+" " +
+                         "   and c.dateFrom < '"+date+"' " +
+                         "   and COALESCE(c.dateTo, CURRENT_DATE) > '"+date+"';";
+            this.getRow();
+        }
+
         public String toString(){
-            return this.id+" | "+this.dateFrom+" | "+this.dateTo+
+            return "C: "+this.id+" | "+this.dateFrom+" | "+this.dateTo+
                     " | "+this.contractNumber+" | "+this.marketingCategoryID;
         }
 
