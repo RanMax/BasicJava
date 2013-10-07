@@ -14,26 +14,17 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9693c735-d805-437d-aa1b-6f2b2f735777" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/AbstractFactory.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/AbstractFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/tables/CalculationMethod.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/tables/CalculationMethod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/tables/Contract.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/tables/Contract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/ContractFactory.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/ContractFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/tables/ContractPersonalAccount.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/tables/ContractPersonalAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/CrmElemFactory.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/CrmElemFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/DBConnection.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/DBConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/Factory.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/Factory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/tables/MarketingCategory.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/tables/MarketingCategory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/tables/PersonalAccount.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/tables/PersonalAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/PersonalAccountFactory.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/PersonalAccountFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/tables/PersonalAccountTD.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/tables/PersonalAccountTD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/Table.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/Table.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/factory/TableFactory.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/factory/TableFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/tables/TariffPlan.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/tables/TariffPlan.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/tables/TerminalDevice.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/tables/TerminalDevice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/TerminalDeviceFactory.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/crm_elem/TerminalDeviceFactory.java" />
+    <list default="true" id="9693c735-d805-437d-aa1b-6f2b2f735777" name="Default" comment="Пример клиент-серверного взаимодействия с использованием сетевого сокета">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBTest/Test.lck" afterPath="$PROJECT_DIR$/DBTest/Test.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbpath/dbname.lck" afterPath="$PROJECT_DIR$/dbpath/dbname.lck" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hsqldb/test.lck" afterPath="$PROJECT_DIR$/hsqldb/test.lck" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/avetikov/DBConnection.java" afterPath="$PROJECT_DIR$/src/iu4/avetikov/DBConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rt4/samoilov/localHostDB/DBConnection.java" afterPath="$PROJECT_DIR$/src/rt4/samoilov/localHostDB/DBConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rt4/samoilov/localHostDB/Main.java" afterPath="$PROJECT_DIR$/src/rt4/samoilov/localHostDB/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/TestDB.lck" afterPath="$PROJECT_DIR$/db/TestDB.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbpath/dbname.properties" afterPath="$PROJECT_DIR$/dbpath/dbname.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbpath/dbname.script" afterPath="$PROJECT_DIR$/dbpath/dbname.script" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hsqldb/test.log" afterPath="$PROJECT_DIR$/hsqldb/test.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BasicJava.iws" />
@@ -41,7 +32,7 @@
     <file path="/TestIterable.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1373545546685" ignored="false" />
     <file path="/HashMapExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1379956100281" ignored="false" />
     <file path="/SwingEx.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1373547769719" ignored="false" />
-    <file path="/Dummy.txt" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380824670453" ignored="false" />
+    <file path="/Dummy.txt" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381090807225" ignored="false" />
     <file path="/OracleConnectExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1379760949362" ignored="false" />
     <file path="/fragment.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380364575698" ignored="false" />
     <file path="/CrmElemFactory.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380819687511" ignored="false" />
@@ -52,7 +43,7 @@
     <file path="/TableFactory.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380368817463" ignored="false" />
     <file path="/ActionScript File Header.txt.ft" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380370005106" ignored="false" />
     <file path="/Factory.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380824760592" ignored="false" />
-    <file path="/DBConnection.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380824738422" ignored="false" />
+    <file path="/DBConnection.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380912076072" ignored="false" />
     <file path="/MarketingCategory.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380468242277" ignored="false" />
     <file path="/Test.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380703156691" ignored="false" />
     <file path="/inoutput.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380726390239" ignored="false" />
@@ -64,6 +55,15 @@
     <file path="/Table.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380824765002" ignored="false" />
     <file path="/TerminalDevice.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380824771098" ignored="false" />
     <file path="/TariffPlan.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380824803543" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381038528816" ignored="false" />
+    <file path="/TestSocket1.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381043276285" ignored="false" />
+    <file path="/Server.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381060850986" ignored="false" />
+    <file path="/Client.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381059170051" ignored="false" />
+    <file path="/StandardInOutExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381047035689" ignored="false" />
+    <file path="/Dialog.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381061053910" ignored="false" />
+    <file path="/TestNet.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381067003264" ignored="false" />
+    <file path="/ComparableExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381087087647" ignored="false" />
+    <file path="/ListComparatorExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381087217869" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +78,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -114,6 +112,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -123,46 +123,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DBConnection.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/DBConnection.java">
+      <file leaf-file-name="IOExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/IOExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="72" selection-start="717" selection-end="717" vertical-scroll-proportion="0.12035398">
+            <state line="10" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Factory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/Factory.java">
+      <file leaf-file-name="StandardInOutExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/StandardInOutExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="-9.52">
+            <state line="11" column="29" selection-start="126" selection-end="278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Table.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/Table.java">
+      <file leaf-file-name="HsqldbConnectExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jdbc_ex/HsqldbConnectExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="754" selection-end="754" vertical-scroll-proportion="-6.12">
+            <state line="9" column="3" selection-start="96" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TariffPlan.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/tables/TariffPlan.java">
+      <file leaf-file-name="OracleConnectExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jdbc_ex/OracleConnectExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="312" selection-end="312" vertical-scroll-proportion="-7.48">
+            <state line="11" column="3" selection-start="148" selection-end="175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TerminalDevice.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/tables/TerminalDevice.java">
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/chat/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="536" selection-end="536" vertical-scroll-proportion="-12.92">
+            <state line="15" column="85" selection-start="162" selection-end="372" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/chat/Dialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="197" selection-end="400" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxAndMin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/olymp/MaxAndMin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="79" selection-end="200" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NMSort.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/olymp/NMSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="61" selection-start="112" selection-end="237" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwingEx.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/swing_ex/SwingEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="130" selection-end="130" vertical-scroll-proportion="-0.2635659">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/chat/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="18" selection-start="213" selection-end="362" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,6 +223,11 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Net" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -187,22 +237,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/study/Cub.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/study/InOutPut.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/crm_elem/CrmElemFactory.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/tables/Contract.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/crm_elem/PersonalAccountFactory.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/crm_elem/ContractFactory.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/crm_elem/TerminalDeviceFactory.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/crm_elem/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/DBConnection.java" />
-        <option value="$PROJECT_DIR$/src/iu4/avetikov.java" />
-        <option value="$PROJECT_DIR$/src/iu4/avetikov/Factory.java" />
         <option value="$PROJECT_DIR$/src/iu4/avetikov/Table.java" />
         <option value="$PROJECT_DIR$/src/iu4/avetikov/tables/TerminalDevice.java" />
         <option value="$PROJECT_DIR$/src/iu4/avetikov/tables/TariffPlan.java" />
         <option value="$PROJECT_DIR$/src/iu4/Avetikov/tables/TerminalDevice.java" />
         <option value="$PROJECT_DIR$/src/iu4/avetikov/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/net/TestSocket1.java" />
+        <option value="$PROJECT_DIR$/src/io/StandardInOutExample.java" />
+        <option value="$PROJECT_DIR$/src/net/chat/Client.java" />
+        <option value="$PROJECT_DIR$/src/net/chat/Server.java" />
+        <option value="$PROJECT_DIR$/src/net/chat/Dialog.java" />
+        <option value="$PROJECT_DIR$/src/net/TestNet.java" />
+        <option value="$PROJECT_DIR$/src/io/CopyAndMoveFileExample.java" />
+        <option value="$PROJECT_DIR$/src/io/CopyFileExample.java" />
+        <option value="$PROJECT_DIR$/src/collections/ComparableExample.java" />
+        <option value="$PROJECT_DIR$/src/collections/IterableCollectionExample.java" />
+        <option value="$PROJECT_DIR$/src/collections/ListComparatorExample.java" />
       </list>
     </option>
   </component>
@@ -214,10 +264,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1932" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -248,7 +298,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,7 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="iu4" />
+              <option name="myItemId" value="swing_ex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,11 +362,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="iu4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avetikov" />
+              <option name="myItemId" value="olymp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,15 +380,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="iu4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avetikov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tables" />
+              <option name="myItemId" value="net" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,11 +398,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="iu4" />
+              <option name="myItemId" value="net" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="avetikov" />
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbc_ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -387,20 +474,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="iu4" />
+              <option name="myItemId" value="exeption_ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="avetikov" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crm_elem" />
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arrays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -425,15 +541,15 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Application.DBConnection">
-    <configuration default="false" name="ArraySortExample" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Client">
+    <configuration default="false" name="TestNet" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="arrays.ArraySortExample" />
+      <option name="MAIN_CLASS_NAME" value="net.TestNet" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -448,14 +564,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ListComparatorExample" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="TestSocket1" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="arrays.ListComparatorExample" />
+      <option name="MAIN_CLASS_NAME" value="net.TestSocket1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -470,14 +586,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="DBConnection" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="Server" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="iu4.avetikov.*" />
+          <option name="PATTERN" value="net.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="iu4.avetikov.DBConnection" />
+      <option name="MAIN_CLASS_NAME" value="net.chat.Server" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -498,14 +614,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="StandardInOutExample" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="iu4.Avetikov.study.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="iu4.Avetikov.study.Test" />
+      <option name="MAIN_CLASS_NAME" value="io.StandardInOutExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -516,22 +632,18 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="BasicJava" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="InOutPut" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
-          <option name="PATTERN" value="iu4.Avetikov.study.*" />
+          <option name="PATTERN" value="net.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="iu4.Avetikov.study.InOutPut" />
+      <option name="MAIN_CLASS_NAME" value="net.chat.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -542,12 +654,8 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="BasicJava" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -621,19 +729,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ArraySortExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ListComparatorExample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DBConnection" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.InOutPut" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestNet" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestSocket1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StandardInOutExample" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DBConnection" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InOutPut" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ListComparatorExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArraySortExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StandardInOutExample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestSocket1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestNet" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -696,7 +804,23 @@
       <created>1380824652146</created>
       <updated>1380824652146</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ветка для добавления примеров по сетевым технологиям">
+      <created>1381038661446</created>
+      <updated>1381038661446</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Пример клиент-серверного взаимодействия с использованием сетевого сокета">
+      <created>1381061407293</created>
+      <updated>1381061407293</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Мелкий рефакторинг">
+      <created>1381090771580</created>
+      <updated>1381090771580</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Пример использования стандартного ввода/вывода">
+      <created>1381090811120</created>
+      <updated>1381090811120</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -720,28 +844,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1050" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2625571" sideWeight="0.4909091" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15726496" sideWeight="0.48181817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24942966" sideWeight="0.67154473" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29452056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2923077" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5007576" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27051672" sideWeight="0.26153848" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20854701" sideWeight="0.6666667" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27045456" sideWeight="0.73162395" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927758" sideWeight="0.67317075" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24273504" sideWeight="0.4939394" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33561644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25811967" sideWeight="0.4939394" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33504274" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26980728" sideWeight="0.43493152" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26969698" sideWeight="0.73162395" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297953" sideWeight="0.66341466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26980728" sideWeight="0.70547944" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23744293" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26666668" sideWeight="0.74188036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2717949" sideWeight="0.3280303" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297953" sideWeight="0.7495935" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -789,7 +913,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Средняя фабрика - Возврат с дополнениями" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пример использования стандартного ввода/вывода" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -808,6 +932,10 @@
     <MESSAGE value="Средняя фабрика" />
     <MESSAGE value="Средняя фабрика - Удаление(опять проблемы)" />
     <MESSAGE value="Средняя фабрика - Возврат с дополнениями" />
+    <MESSAGE value="Ветка для добавления примеров по сетевым технологиям" />
+    <MESSAGE value="Пример клиент-серверного взаимодействия с использованием сетевого сокета" />
+    <MESSAGE value="Мелкий рефакторинг" />
+    <MESSAGE value="Пример использования стандартного ввода/вывода" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -817,42 +945,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/javax/swing/TransferHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/collections/SetOperationsExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="824" column="19" selection-start="31408" selection-end="31408" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="-9.52">
+        <state line="9" column="3" selection-start="108" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/Table.java">
+    <entry file="file://$PROJECT_DIR$/src/exeption_ex/JavaExceptionExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="754" selection-end="754" vertical-scroll-proportion="-6.12">
+        <state line="9" column="13" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/tables/TariffPlan.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/ConnectModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="312" selection-end="312" vertical-scroll-proportion="-7.48">
+        <state line="7" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/tables/TerminalDevice.java">
+    <entry file="file://$PROJECT_DIR$/src/io/CopyAndMoveFileExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="536" selection-end="536" vertical-scroll-proportion="-12.92">
+        <state line="10" column="3" selection-start="122" selection-end="183" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iu4/avetikov/DBConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/io/CopyFileExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="72" selection-start="717" selection-end="717" vertical-scroll-proportion="0.12035398">
+        <state line="13" column="73" selection-start="225" selection-end="295" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/FileExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="94" selection-end="126" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/IOExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/StandardInOutExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="126" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc_ex/HsqldbConnectExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="96" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc_ex/OracleConnectExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="148" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/chat/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="213" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/chat/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="85" selection-start="162" selection-end="372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/chat/Dialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="197" selection-end="400" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/olymp/MaxAndMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="79" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/olymp/NMSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="61" selection-start="112" selection-end="237" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing_ex/SwingEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="130" selection-end="130" vertical-scroll-proportion="-0.2635659">
           <folding />
         </state>
       </provider>

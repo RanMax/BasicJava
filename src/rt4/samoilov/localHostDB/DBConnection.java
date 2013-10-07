@@ -1,4 +1,4 @@
-package localHostDB;
+package rt4.samoilov.localHostDB;
 
 import static java.lang.System.out;
 
@@ -14,9 +14,9 @@ public class DBConnection {
 	public static Scanner sc = new Scanner(System.in);
 	public static Connection conn;
 	
-	//Конструктор
+	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	public DBConnection() {
-		//регистрация драйвера jdbc
+		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ jdbc
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 		} 
@@ -29,9 +29,9 @@ public class DBConnection {
 		catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
-		out.println("Драйвер JDBC успешно загружен");
+		out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ JDBC пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		
-		//соединение с БД
+		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ
 		try {
 			
 			DBConnection.conn = DriverManager.getConnection("jdbc:mysql://localhost/test", "root", "root");
@@ -39,26 +39,26 @@ public class DBConnection {
 		catch (SQLException e) {
 			e.printStackTrace();
 		}
-		out.println("Соединение с БД установлено\n");		
+		out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ\n");		
 		
 	}//end of CONSTRUCTOR
 	
-	//Чтение ввода пользователя
+	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	private String readUserInput() {
-		out.print("Введите имя и фамилию для новой записи в БД [имя фамилия]: ");
+		out.print("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ [пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ]: ");
 		String s = sc.nextLine();
 		return s;
 	}	
 	
-	//Чтение таблицы из БД
+	//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ
 	public void printDataBase() throws SQLException {
-		out.println("Имя\t\tФамилия");
+		out.println("пїЅпїЅпїЅ\t\tпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		
-		//sql-запрос
+		//sql-пїЅпїЅпїЅпїЅпїЅпїЅ
 		String sql = "SELECT first_name, second_name FROM test.users";
 		Statement statement = conn.createStatement();
 		
-		//получение данных из БД
+		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ
 		ResultSet result = statement.executeQuery(sql);
 		
 		result.next();
@@ -71,22 +71,22 @@ public class DBConnection {
 		while (result.next());		
 	}	
 	
-	//Добавление записи в БД
+	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ
 	public void insertToDB() throws SQLException {
-		//Создается массив строк из ввода пользователя
-		//Ввод пользователя разбивается пробелами
+		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+		//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		String[] input = readUserInput().split(" ");
 		
 		if (input[0] != null && input[1] != null) {
-			//sql-запрос
+			//sql-пїЅпїЅпїЅпїЅпїЅпїЅ
 			String sql = "INSERT INTO test.users(`first_name`,`second_name`)VALUES(\""+input[0]+"\", \""+input[1]+"\");";
 			Statement statement = conn.createStatement();
 			
-			//выполнение sql-запроса
+			//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ sql-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 			statement.execute(sql);
-			out.printf("Запись \"%s %s\" успешно добавлена в БД\n\n", input[0], input[1]);	
+			out.printf("пїЅпїЅпїЅпїЅпїЅпїЅ \"%s %s\" пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ\n\n", input[0], input[1]);	
 		}
 		else
-			out.println("Невозможно выполнить добавление записи - минимум одно поле пустое");
+			out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 	}//end of INSERTtOdb
 }
