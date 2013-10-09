@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Hibernate">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/hibernate/required" />
+      <root url="file://$PROJECT_DIR$/lib/hibernate/osgi" />
+      <root url="file://$PROJECT_DIR$/lib/hibernate/jpa" />
+      <root url="file://$PROJECT_DIR$/lib/hibernate/envers" />
+      <root url="file://$PROJECT_DIR$/lib/hibernate/optional/c3p0" />
+      <root url="file://$PROJECT_DIR$/lib/hibernate/optional/ehcache" />
+      <root url="file://$PROJECT_DIR$/lib/hibernate/optional/infinispan" />
+      <root url="file://$PROJECT_DIR$/lib/hibernate/optional/proxool" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/hibernate/osgi" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hibernate/envers" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hibernate/jpa" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hibernate/optional/c3p0" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hibernate/optional/ehcache" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hibernate/optional/infinispan" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hibernate/optional/proxool" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hibernate/osgi" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hibernate/required" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hibernate/osgi" recursive="false" type="SOURCES" />
+  </library>
+</component>

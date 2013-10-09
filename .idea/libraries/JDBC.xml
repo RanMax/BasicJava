@@ -2,10 +2,10 @@
   <library name="JDBC">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/ojdbc6.jar!/" />
-      <root url="file://$PROJECT_DIR$/lib/hsqldb-2.2.9/hsqldb/lib" />
+      <root url="file://$PROJECT_DIR$/lib/hsqldb" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
-    <jarDirectory url="file://$PROJECT_DIR$/lib/hsqldb-2.2.9/hsqldb/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hsqldb" recursive="false" />
   </library>
 </component>
