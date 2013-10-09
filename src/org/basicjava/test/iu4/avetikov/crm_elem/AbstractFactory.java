@@ -36,7 +36,7 @@ public abstract class AbstractFactory implements CrmElemFactory {
             }
 
             try {
-           	    connection = DriverManager.getConnection("jdbc:hsqldb:file:dbpath/dbname", "SA", "");
+           	    connection = DriverManager.getConnection("jdbc:hsqldb:file:db/dbname", "SA", "");
             } catch (SQLException e) {
            	    System.err.println("Нe удалось cоздать соединение.");
            	    e.printStackTrace();

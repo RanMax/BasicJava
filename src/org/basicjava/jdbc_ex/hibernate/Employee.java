@@ -1,4 +1,4 @@
-package org.basicjava.hibernate;
+package org.basicjava.jdbc_ex.hibernate;
 
 /**
  * User: Maxim
@@ -18,7 +18,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name="EMPLOYEE")
 public class Employee {
-
     @Id
     @GeneratedValue
     private Long id;

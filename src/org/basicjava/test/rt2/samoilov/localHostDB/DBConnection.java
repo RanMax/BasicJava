@@ -1,4 +1,4 @@
-package org.basicjava.rt4.samoilov.localHostDB;
+package org.basicjava.test.rt2.samoilov.localHostDB;
 
 import static java.lang.System.out;
 

@@ -1,4 +1,4 @@
-package org.basicjava.hibernate;
+package org.basicjava.jdbc_ex.hibernate;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

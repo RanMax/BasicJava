@@ -1,4 +1,4 @@
-package org.basicjava.rt4.chistov;
+package org.basicjava.test.rt2.chistov;
 
 import java.io.File;
 

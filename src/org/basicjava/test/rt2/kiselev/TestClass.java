@@ -1,4 +1,4 @@
-package org.basicjava.rt4.kiselev;
+package org.basicjava.test.rt2.kiselev;
 
 /**
  * Created with IntelliJ IDEA.

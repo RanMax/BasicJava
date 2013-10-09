@@ -3,7 +3,7 @@
  * 01.10.2013 21:51:00
  */
 
-package org.basicjava.rt4.samoilov.localHostDB;
+package org.basicjava.test.rt2.samoilov.localHostDB;
 
 //import static java.lang.System.out;
 

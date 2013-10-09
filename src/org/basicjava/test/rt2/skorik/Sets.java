@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.basicjava.rt4.skorik;
+package org.basicjava.test.rt2.skorik;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package org.basicjava.rt4.ahmetov;
+package org.basicjava.test.rt2.ahmetov;
 
 /**
  * User: Maxim
