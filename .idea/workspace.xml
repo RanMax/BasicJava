@@ -23,7 +23,7 @@
     <file path="/TestIterable.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1373545546685" ignored="false" />
     <file path="/HashMapExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1379956100281" ignored="false" />
     <file path="/SwingEx.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1373547769719" ignored="false" />
-    <file path="/Dummy.txt" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382695690274" ignored="false" />
+    <file path="/Dummy.txt" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382696916781" ignored="false" />
     <file path="/OracleConnectExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1379760949362" ignored="false" />
     <file path="/fragment.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382693088282" ignored="false" />
     <file path="/CrmElemFactory.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380819687511" ignored="false" />
@@ -62,8 +62,10 @@
     <file path="$PROJECT_DIR$/src/org/basicjava/virtual_filesystem/containers/LangTag.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1381336910903" ignored="false" />
     <file path="/a.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382630178651" ignored="false" />
     <file path="/SwingTest0.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382640452895" ignored="false" />
-    <file path="/SwingTest2D.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382696358479" ignored="false" />
+    <file path="/SwingTest2D.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382718035542" ignored="false" />
     <file path="/a.dummy" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382691340738" ignored="false" />
+    <file path="/SwingTestListener.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382709242158" ignored="false" />
+    <file path="/SwingTestButton.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382709239872" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,30 +131,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SwingEx.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/SwingEx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="52" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwingTest0.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest0.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="60" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SwingTest2D.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="56" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.23192771">
+            <state line="137" column="74" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.5135542">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2876#3043#0" expanded="true" />
+                <element signature="e#3028#3029#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/crm_elem/TerminalDeviceFactory.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/crm_elem/AbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/iu4/Avetikov/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/iu4/avetikov.java" />
         <option value="$PROJECT_DIR$/src/iu4/avetikov/Factory.java" />
@@ -192,6 +175,8 @@
         <option value="$PROJECT_DIR$/src/org/basicjava/hibernate/Employee.java" />
         <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/tables/TerminalDevice.java" />
         <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest0.java" />
+        <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTestListener.java" />
+        <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTestButton.java" />
         <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest2D.java" />
       </list>
     </option>
@@ -379,28 +364,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Swing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BasicJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BasicJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basicjava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swing_ex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -685,7 +648,11 @@
       <created>1382695651472</created>
       <updated>1382695651472</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="already worked 2d without animation">
+      <created>1382696923541</created>
+      <updated>1382696923541</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -782,7 +749,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="unworked 2D test" />
+    <option name="LAST_COMMIT_MESSAGE" value="already worked 2d without animation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -804,6 +771,7 @@
     <MESSAGE value="Средняя фабрика - Возврат с дополнениями" />
     <MESSAGE value="Изменение структуры репозитория" />
     <MESSAGE value="unworked 2D test" />
+    <MESSAGE value="already worked 2d without animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -813,44 +781,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="23" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/olymp/NMSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/jdbc_ex/HsqldbConnectExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="78" selection-start="295" selection-end="318" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/tables/TerminalDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="22" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/chernuhin/TestClass2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/chernuhin/TestIntOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" />
+        <state line="9" column="13" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" />
+        <state line="32" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Temp.java">
@@ -862,19 +804,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/tables/TariffPlan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="34" selection-start="672" selection-end="672" vertical-scroll-proportion="0.40814197" />
+        <state line="26" column="34" selection-start="672" selection-end="672" vertical-scroll-proportion="0.40814197">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/NMSortMy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="24" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/SwingEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -900,11 +837,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/tables/CalculationMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/sayapin/sea_wars/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/sayapin/sea_wars/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/sayapin/sea_wars/SeaWars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/sayapin/sea_wars/Ships.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="6" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/SwingEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="52" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="56" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.23192771">
+        <state line="137" column="74" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.5135542">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2876#3043#0" expanded="true" />
+            <element signature="e#3028#3029#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -966,6 +946,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
