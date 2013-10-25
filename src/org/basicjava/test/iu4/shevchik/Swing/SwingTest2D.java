@@ -54,24 +54,36 @@ public class SwingTest2D {
             return height;
         }
     }
+    /* worked inner class
+    private static class PaintPanel extends JPanel{
+        public void paintComponent(Graphics g){
+            super.paintComponent(g);
+            Graphics2D g2 = (Graphics2D) g;
+
+            //rect
+            Rectangle2D rect = new Rectangle2D.Double(100,100,100,100);
+            g2.draw(rect);
+        }
+    }
+    */
 
     public static class PaintPanel extends JPanel{
-        private int leftX = 100;
-        private int topY = 100;
-        private int width = 100;
-        private int height = 100;
+        private int panelLeftX = 100;
+        private int panelTopY = 100;
+        private int panelWidth = 100;
+        private int panelHeight = 100;
 
         public void paintComponent(Graphics g){
             super.paintComponent(g);
             Graphics2D g2D = (Graphics2D) g;
 
             //rectangle draw
-            Rectangle2D rect = new Rectangle2D.Double(getLeftX(), getTopY(), getWidth(), getHeight());
+            Rectangle2D rect = new Rectangle2D.Double(getPanelLeftX(), getPanelTopY(), getPanelWidth(), getPanelHeight());
             g2D.setPaint(Color.BLACK);
             g2D.draw(rect);
 
-            Rectangle2D r = new Rectangle2D.Double(100,100,100,100);
-            g2D.draw(r);
+            //Rectangle2D r = new Rectangle2D.Double(100,100,100,100);
+            //g2D.draw(r);
             //ellipse draw
             Ellipse2D ellipse = new Ellipse2D.Double();
             ellipse.setFrame(rect);
@@ -80,24 +92,25 @@ public class SwingTest2D {
 
             //line draw
             g2D.setPaint(Color.GREEN);
-            g2D.draw(new Line2D.Double(getLeftX() + getHeight() / 2, getTopY(), getLeftX(), getTopY() - getHeight() / 4));
-            g2D.draw(new Line2D.Double(getLeftX() + getHeight() / 2, getTopY(), getLeftX() + getWidth(), getTopY() - getHeight() / 4));
+            g2D.draw(new Line2D.Double(getPanelLeftX() + getPanelHeight() / 2, getPanelTopY(), getPanelLeftX(), getPanelTopY() - getPanelHeight() / 4));
+            g2D.draw(new Line2D.Double(getPanelLeftX() + getPanelHeight() / 2, getPanelTopY(), getPanelLeftX() + getPanelWidth(), getPanelTopY() - getPanelHeight() / 4));
         }
 
-        public int getLeftX() {
-            return leftX;
+        public int getPanelLeftX() {
+            return panelLeftX;
         }
 
-        public int getTopY() {
-            return topY;
+        public int getPanelTopY() {
+            return panelTopY;
         }
 
-        public int getWidth() {
-            return width;
+        public int getPanelWidth() {
+            return panelWidth;
         }
 
-        public int getHeight() {
-            return height;
+        public int getPanelHeight() {
+            return panelHeight;
         }
     }
+
 }
