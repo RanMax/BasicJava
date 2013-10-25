@@ -10,5 +10,8 @@ package org.basicjava.test.iu4.chernuhin;
 public class TestIntOut {
     public static void main(String[] args){
         System.out.println("Hello world");
+
+
+
     }
 }
