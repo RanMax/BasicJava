@@ -20,39 +20,16 @@ public class SwingTestMouse {
     private final static int SIZE = 13;
 
     public static void main(String[] args){
-        MouseFrame frame = new MouseFrame();
+        JFrame frame = new JFrame();
+        frame.setLayout(new BorderLayout());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setBounds(30, 40, 300,200);
+
+        MousePanel panel = new MousePanel();
+        panel.setBackground(Color.GRAY);
+        frame.add(panel, BorderLayout.CENTER);
+        //frame.setResizable(true);
         frame.setVisible(true);
-    }
-
-    public static class MouseFrame extends JFrame{
-        private int leftX = 800;
-        private int topY = 400;
-        private int width = 500;
-        private int height = 500;
-
-        public int getLeftX() {
-            return leftX;
-        }
-
-        public int getTopY() {
-            return topY;
-        }
-
-        public int getWidth() {
-            return width;
-        }
-
-        public int getHeight() {
-            return height;
-        }
-
-        public MouseFrame(){
-            setBounds(getLeftX(), getTopY(), getWidth(),getHeight());
-            MousePanel panel = new MousePanel();
-            panel.setBackground(Color.GRAY);
-            add(panel);
-        }
     }
 
     public static class MousePanel extends JPanel{
@@ -60,6 +37,7 @@ public class SwingTestMouse {
         private Rectangle2D current;
 
         public MousePanel(){
+            super();
             list = new ArrayList<Rectangle2D>();
             current = null;
 
