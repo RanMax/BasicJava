@@ -8,13 +8,9 @@ import java.awt.*;
  * Time: 20:15
  */
 public class Edge {
-    public static final int TYPE_SUBCLASS = 0;
-    public static final int TYPE_ASSOCIATE = 1;
-
     int x,y;
     Node subj;
     Node obj;
-    int type = TYPE_SUBCLASS;
 
     public Edge(Node subj,Node obj){
         this.subj = subj;
@@ -22,22 +18,20 @@ public class Edge {
     };
 
     public void paint(Graphics g){
-        if (type == TYPE_SUBCLASS) g.setColor(Color.BLACK);
-        else g.setColor(Color.RED);
+        g.setColor(Color.BLACK);
         //System.out.println("Object = " + subj);
         double x1 = subj.getX()+subj.getTranslateX();
         double y1 = subj.getY()+subj.getTranslateY();
-        double x2 = obj.getX()+obj.getTranslateX();
-        double y2 = obj.getY()+obj.getTranslateY();
 
         if (obj == null) g.drawLine((int)x1,(int)y1,x,y);
         else {
-            if (type == TYPE_SUBCLASS) g.setColor(Color.BLACK);
-            else g.setColor(Color.MAGENTA);
+            double x2 = obj.getX()+obj.getTranslateX();
+            double y2 = obj.getY()+obj.getTranslateY();
+
+            g.setColor(Color.BLACK);
             g.drawLine((int)x1,(int)y1,(int)(x1+(x2-x1)/2),(int)(y1+(y2-y1)/2));
 
-            if (type == TYPE_SUBCLASS) g.setColor(Color.RED);
-            else g.setColor(Color.MAGENTA);
+            g.setColor(Color.RED);
             g.drawLine((int)(x1+(x2-x1)/2),(int)(y1+(y2-y1)/2),(int)x2,(int)y2);
         }
     }
@@ -74,17 +68,13 @@ public class Edge {
         return subj;
     }
 
-    public void setType(int type) {
-        this.type = type;
-    }
-
     public int hashCode(){
-        return this.subj.getResource().getId().hashCode() + this.obj.getResource().getId().hashCode();
+        return this.subj.getName().hashCode() + this.obj.getName().hashCode();
     }
 
     public boolean equals(Object edge){
-        if (this.subj.getResource().getId().equals(((Edge)edge).getSubj().getResource().getId())
-                && this.obj.getResource().getId().equals(((Edge)edge).getObj().getResource().getId())) return true;
+        if (this.subj.getName().equals(((Edge)edge).getSubj().getName())
+                && this.obj.getName().equals(((Edge)edge).getObj().getName())) return true;
         else return false;
     }
 }

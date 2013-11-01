@@ -10,7 +10,7 @@ import java.awt.*;
  * Time: 20:15
  */
 public class Node {
-    SybaseObject res;
+    private String name;
     private double translateX = 0;
     private double translateY = 0;
     double x,y,r = 5.0;
@@ -22,8 +22,8 @@ public class Node {
         this.y = y;
     }
 
-    public Node(SybaseObject res){
-        this.res = res;
+    public Node(String name){
+        this.name = name;
     }
 
     public boolean hasPoint(Point point){
@@ -31,21 +31,17 @@ public class Node {
         else return false;
     }
     public void paint(Graphics g){
-        g.setColor(Color.MAGENTA);
-        if (res != null){
-            if (res.getType().equals("V")) g.setColor(Color.GREEN);
-            if (res.getType().equals("U")) g.setColor(Color.ORANGE);
-            if (res.getType().equals("P")) g.setColor(Color.CYAN);
-        }
+        g.setColor(Color.GREEN);
+
         g.fillOval((int)(x+translateX-r),(int)(y+translateY-r),(int)(2*r),(int)(2*r));
         g.setColor(Color.BLACK);
         g.drawOval((int)(x+translateX-r),(int)(y+translateY-r),(int)(2*r),(int)(2*r));
-        if (res != null) {
+        if (name != null) {
             int style = Font.BOLD | Font.ITALIC;
             Font f = new Font("TimesNewRoman",style,16);
             g.setFont(f);
             g.setColor(Color.BLUE);
-            g.drawString(res.toString(),(int)(x+translateX + 7),(int)(y+translateY+7));
+            g.drawString(name,(int)(x+translateX + 7),(int)(y+translateY+7));
         }
     }
 
@@ -130,7 +126,7 @@ public class Node {
         this.translateY = translateY;
     }
 
-    public SybaseObject getResource() {
-        return res;
+    public String getName() {
+        return name;
     }
 }

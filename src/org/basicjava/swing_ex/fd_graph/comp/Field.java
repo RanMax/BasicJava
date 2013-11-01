@@ -1,13 +1,10 @@
 package org.basicjava.swing_ex.fd_graph.comp;
 
-import viz.controller.VizController;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 
 /**
  * User: Maxim
@@ -22,16 +19,14 @@ public class Field extends JComponent {
     double m = 100;
     double k = 1;
     Node translateNode;
-    Node centerNode;
     private double translateX = 0;
     private double translateY = 0;
     Timer timer;
-    VizController controller;
-    Field field = this;
+
+    private int nodeCount = 0;
 
 
-    public Field(VizController controller){
-        this.controller = controller;
+    public Field(){
         FieldMouseListener l = new FieldMouseListener();
         this.addMouseListener(l);
         this.addMouseMotionListener(l);
@@ -46,62 +41,6 @@ public class Field extends JComponent {
             }
         });
         timer.start();
-    }
-
-    public void showDelta(HashMap<Integer,Node> sNodes, HashSet<Edge> sEdges, Node root){
-        setCenterNode(root);
-        HashMap<Integer, Node> newNodes = new HashMap<Integer, Node>();
-        for (Node n: nodes){
-            Integer id = n.getResource().getId();
-            if (sNodes.containsKey(id)) {newNodes.put(id,n); sNodes.remove(id);}
-        }
-        for (Node n: sNodes.values()){
-            n.setX(Math.random()*10*optL);
-            n.setY(Math.random()*10*optL);
-            n.setTranslateX(translateX);
-            n.setTranslateY(translateY);
-        }
-        newNodes.putAll(sNodes);
-        //HashSet<Edge> newEdges = new HashSet<Edge>();
-        for (Edge edge: sEdges){
-            Integer subjId = edge.getSubj().getResource().getId();
-            Integer objId = edge.getObj().getResource().getId();
-            Node subj = newNodes.get(subjId);
-            Node obj = newNodes.get(objId);
-            edge.setSubj(subj);
-            edge.setObj(obj);
-            if (subj == null || obj == null) {
-                System.out.println("SUBJ = " + subj);
-            }
-        }
-
-        nodes = new ArrayList<Node>();
-        nodes.addAll(newNodes.values());
-        edges = new ArrayList<Edge>();
-        edges.addAll(sEdges);
-
-    }
-
-    public void showGraph(HashMap<Integer,Node> sNodes, HashSet<Edge> sEdges, Node root, Dimension d){
-        translateX = 0;
-        translateY = 0;
-        nodes = new ArrayList<Node>();
-        edges = new ArrayList<Edge>();
-        nodes.addAll(sNodes.values());
-        edges.addAll(sEdges);
-        double cX = d.getWidth()/2;
-        double cY = d.getHeight()/2;
-        root.setX(cX);
-        root.setY(cY);
-        setCenterNode(root);
-        int i = 0;
-        int n = sNodes.size()-1;
-        double r = optL*sNodes.size()/(20*Math.PI);
-        for (Node node: nodes) if (!node.equals(root)){
-            node.setX(cX+r*Math.cos(2*Math.PI*i/n));
-            node.setY(cY + r * Math.sin(2 * Math.PI * i / n));
-            i++;
-        }
     }
 
     public void increaseOptLen(){
@@ -120,10 +59,6 @@ public class Field extends JComponent {
                 node.setOptL(optL);
             }
         }
-    }
-
-    public void setCenterNode(Node centerNode) {
-        this.centerNode = centerNode;
     }
 
     public double getTranslateX() {
@@ -186,20 +121,11 @@ public class Field extends JComponent {
 
     public void moveNode(){
         double lM = m;
-        for (Node n: nodes) if (n != translateNode && n != centerNode){
+        for (Node n: nodes) if (n != translateNode){
             //if (Math.pow(n.getFx(),2)+Math.pow(n.getFy(),2) > 10000) m = cM;
             n.setX(n.getX()-n.getFx()/lM);
             n.setY(n.getY()+n.getFy()/lM);
             m++;
-        }
-
-        if (centerNode != null){
-            Dimension center = getSize();
-            double dx = center.getWidth()/2 - centerNode.getX() - translateX;
-            double dy = center.getHeight()/2 - centerNode.getY() - translateY;
-            centerNode.setX(centerNode.getX() + dx/100);
-            centerNode.setY(centerNode.getY() + dy/100);
-            if (dx > 1 || dy > 1) m = cM;
         }
     }
 
@@ -242,10 +168,10 @@ public class Field extends JComponent {
             if (e.getModifiers() == InputEvent.BUTTON1_MASK){
                 translateNode = node;
             } else if (node != null){
-                //edge = new Edge(node,null);
-                //edge.setX(e.getX());
-                //edge.setY(e.getY());
-                //edges.add(edge);
+                edge = new Edge(node,null);
+                edge.setX(e.getX());
+                edge.setY(e.getY());
+                edges.add(edge);
             }
         }
         public void mouseReleased(MouseEvent e) {
@@ -267,7 +193,6 @@ public class Field extends JComponent {
         }
         public void mouseDragged(MouseEvent e){
             if (translateNode != null && startPoint != null){
-                if (node == centerNode) centerNode = null;
                 node.setX((int)(node.getX()+e.getX()-startPoint.getX()));
                 node.setY((int) (node.getY() + e.getY() - startPoint.getY()));
                 startPoint = e.getPoint();
@@ -277,7 +202,6 @@ public class Field extends JComponent {
                 edge.setY(e.getY());
             } else {
                 if (node == null && startPoint != null){
-                    centerNode = null;
                     setTranslateX(getTranslateX()+ e.getX() - startPoint.getX());
                     setTranslateY(getTranslateY()+ e.getY() - startPoint.getY());
                     startPoint = e.getPoint();
@@ -288,7 +212,14 @@ public class Field extends JComponent {
 
         public void mouseClicked(MouseEvent e) {
             Node clickNode = getNode(e.getPoint());
-            if (clickNode != null) controller.showObject(clickNode.getResource());
+            if (clickNode == null) addNode(e.getPoint());
+        }
+
+        private void addNode(Point p){
+            Node n = new Node("Node " + ++nodeCount);
+            n.setX(p.getX());
+            n.setY(p.getY());
+            nodes.add(n);
         }
 
     }
