@@ -9,6 +9,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JDBC" level="project" />
     <orderEntry type="library" name="Hibernate" level="project" />
+    <orderEntry type="library" name="VLCJ" level="project" />
   </component>
 </module>
 

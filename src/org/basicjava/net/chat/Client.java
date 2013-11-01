@@ -17,7 +17,7 @@ import java.nio.channels.SocketChannel;
 */
 public class Client {
     public static void main(String[] args) throws Exception{
-        Socket kkSocket = new Socket("localhost", 1300);
+        Socket kkSocket = new Socket("192.168.0.100", 1300);
         PrintWriter out = new PrintWriter(kkSocket.getOutputStream(), true);
         BufferedReader in = new BufferedReader(new InputStreamReader(kkSocket.getInputStream()));
         BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in));

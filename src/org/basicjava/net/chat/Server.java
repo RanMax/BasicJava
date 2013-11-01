@@ -1,5 +1,6 @@
 package org.basicjava.net.chat;
 
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
@@ -28,7 +29,8 @@ public class Server {
     }
 
     public void start() throws Exception{
-        server = new ServerSocket(1300);
+        InetAddress inetAddress = InetAddress.getByAddress("192.168.0.101".getBytes());
+        server = new ServerSocket(1300, 5, inetAddress);
         while (flag){
             try{
                 client = server.accept();
