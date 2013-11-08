@@ -15,7 +15,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9693c735-d805-437d-aa1b-6f2b2f735777" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest2D.java" afterPath="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest2D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Edge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Field.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/ForceDirectedGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iu4/chernuhin/ClientThread.java" afterPath="$PROJECT_DIR$/src/iu4/chernuhin/ClientThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/basicjava/vlcj/TestVlcj.java" afterPath="$PROJECT_DIR$/src/org/basicjava/vlcj/TestVlcj.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/basicjava/vlcj/YouTubePlayer.java" afterPath="$PROJECT_DIR$/src/org/basicjava/vlcj/YouTubePlayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BasicJava.iws" />
@@ -23,9 +29,9 @@
     <file path="/TestIterable.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1373545546685" ignored="false" />
     <file path="/HashMapExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1379956100281" ignored="false" />
     <file path="/SwingEx.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1373547769719" ignored="false" />
-    <file path="/Dummy.txt" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382696916781" ignored="false" />
+    <file path="/Dummy.txt" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1383923044860" ignored="false" />
     <file path="/OracleConnectExample.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1379760949362" ignored="false" />
-    <file path="/fragment.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382693088282" ignored="false" />
+    <file path="/fragment.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1383948414129" ignored="false" />
     <file path="/CrmElemFactory.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380819687511" ignored="false" />
     <file path="/TerminalDeviceFactory.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380821372648" ignored="false" />
     <file path="/PersonalAccountFactory.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1380821064549" ignored="false" />
@@ -66,6 +72,11 @@
     <file path="/a.dummy" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382691340738" ignored="false" />
     <file path="/SwingTestListener.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382709242158" ignored="false" />
     <file path="/SwingTestButton.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1382709239872" ignored="false" />
+    <file path="/YouTubePlayer.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1383923822746" ignored="false" />
+    <file path="/ForceDirectedGraph.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1383950974697" ignored="false" />
+    <file path="/Field.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1383953060778" ignored="false" />
+    <file path="/Node.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1383952209485" ignored="false" />
+    <file path="/Edge.java" changelist="9693c735-d805-437d-aa1b-6f2b2f735777" time="1383948469324" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +142,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SwingTest2D.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest2D.java">
+      <file leaf-file-name="SwingTestMouse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTestMouse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="74" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.5135542">
+            <state line="29" column="32" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForceDirectedGraph.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/ForceDirectedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="37" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#2876#3043#0" expanded="true" />
-                <element signature="e#3028#3029#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FDGraph.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/fd_graph/FDGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="32" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Field.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="51" selection-start="933" selection-end="933" vertical-scroll-proportion="0.6106605">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#409#415#0" expanded="true" />
+                <element signature="e#460#466#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Field.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/fd_graph/comp/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="151" column="57" selection-start="3866" selection-end="3866" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#280#286#0" expanded="true" />
+                <element signature="e#331#337#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="55" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/fd_graph/comp/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="48" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Edge.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Edge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="44" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Edge.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/fd_graph/comp/Edge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="62" selection-start="532" selection-end="565" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,14 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/DBConnection.java" />
-        <option value="$PROJECT_DIR$/src/iu4/avetikov.java" />
-        <option value="$PROJECT_DIR$/src/iu4/avetikov/Factory.java" />
-        <option value="$PROJECT_DIR$/src/iu4/avetikov/Table.java" />
-        <option value="$PROJECT_DIR$/src/iu4/avetikov/tables/TerminalDevice.java" />
-        <option value="$PROJECT_DIR$/src/iu4/avetikov/tables/TariffPlan.java" />
-        <option value="$PROJECT_DIR$/src/iu4/Avetikov/tables/TerminalDevice.java" />
-        <option value="$PROJECT_DIR$/src/iu4/avetikov/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/hibernate/TestHibernate.java" />
         <option value="$PROJECT_DIR$/src/hibernate/Employee.java" />
         <option value="$PROJECT_DIR$/src/org/basicjava/hibernate/Employee.java" />
@@ -178,6 +263,14 @@
         <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTestListener.java" />
         <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTestButton.java" />
         <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest2D.java" />
+        <option value="$PROJECT_DIR$/src/iu4/chernuhin/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/org/basicjava/vlcj/TestVlcj.java" />
+        <option value="$PROJECT_DIR$/src/org/basicjava/vlcj/YouTubePlayer.java" />
+        <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Edge.java" />
+        <option value="$PROJECT_DIR$/src/org/basicjava/swing_ex/fd_graph/FDGraph.java" />
+        <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/ForceDirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Field.java" />
+        <option value="$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Node.java" />
       </list>
     </option>
   </component>
@@ -252,6 +345,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicjava" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,6 +495,66 @@
               <option name="myItemId" value="basicjava" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swing_ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicjava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swing_ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd_graph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basicjava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swing_ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd_graph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -405,58 +576,14 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.SwingTest2D">
-    <configuration default="false" name="NMSortMy" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.basicjava.test.iu4.shevchik.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.basicjava.test.iu4.shevchik.NMSortMy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BasicJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestHibernate" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.basicjava.hibernate.TestHibernate" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BasicJava" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FDGraph">
     <configuration default="false" name="SwingEx" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="org.basicjava.swing_ex.SwingEx" />
@@ -494,6 +621,40 @@
     <configuration default="false" name="SwingTest2D" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="org.basicjava.test.iu4.shevchik.Swing.SwingTest2D" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BasicJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FDGraph" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.basicjava.swing_ex.fd_graph.FDGraph" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BasicJava" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SwingTestMouse" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.basicjava.test.iu4.shevchik.Swing.SwingTestMouse" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -566,19 +727,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.NMSortMy" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestHibernate" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SwingEx" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SwingTest0" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SwingTest2D" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SwingEx" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SwingTest0" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SwingTest2D" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FDGraph" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SwingTestMouse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SwingTest2D" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SwingTest0" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SwingEx" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestHibernate" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NMSortMy" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FDGraph" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SwingTestMouse" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SwingTest2D" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SwingTest0" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SwingEx" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -676,24 +837,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1036" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2625571" sideWeight="0.4909091" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26209223" sideWeight="0.4909091" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23284589" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24942966" sideWeight="0.67154473" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29411766" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5007576" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22998933" sideWeight="0.39307535" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24184477" sideWeight="0.4939394" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24071991" sideWeight="0.4939394" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33408323" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22998933" sideWeight="0.39307535" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.77615297" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967984" sideWeight="0.77615297" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22998933" sideWeight="0.77615297" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22384702" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18729989" sideWeight="0.7671541" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22272216" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297953" sideWeight="0.7495935" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -702,7 +864,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32620922" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -781,110 +942,127 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/chernuhin/TestIntOut.java">
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/chernuhin/chatconsole/SocketInputThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+        <state line="16" column="13" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/Table.java">
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/chernuhin/chatconsole/ChatClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
+        <state line="15" column="13" selection-start="374" selection-end="374" vertical-scroll-proportion="0.295053">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Temp.java">
+    <entry file="file://$PROJECT_DIR$/src/iu4/chernuhin/ClientThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+        <state line="12" column="17" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/tables/TariffPlan.java">
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/vlcj/TestVlcj.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="34" selection-start="672" selection-end="672" vertical-scroll-proportion="0.40814197">
+        <state line="10" column="2" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/NMSortMy.java">
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/vlcj/YouTubePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="11" selection-start="6073" selection-end="6073" vertical-scroll-proportion="0.7183735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="773" column="19" selection-start="28568" selection-end="28568" vertical-scroll-proportion="0.33283132">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest0.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="60" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/avetikov/tables/CalculationMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/sayapin/sea_wars/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/sayapin/sea_wars/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/sayapin/sea_wars/SeaWars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/sayapin/sea_wars/Ships.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="6" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/SwingEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+        <state line="49" column="2" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTest2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="74" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.5135542">
+        <state line="99" column="55" selection-start="3013" selection-end="3013" vertical-scroll-proportion="2.2781954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="16" selection-start="975" selection-end="975" vertical-scroll-proportion="0.51216686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/fd_graph/comp/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="62" selection-start="532" selection-end="565" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="44" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/fd_graph/comp/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="48" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/fd_graph/comp/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="57" selection-start="3866" selection-end="3866" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2876#3043#0" expanded="true" />
-            <element signature="e#3028#3029#0" expanded="true" />
+            <element signature="e#280#286#0" expanded="true" />
+            <element signature="e#331#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/swing_ex/fd_graph/FDGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="32" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/SwingTestMouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="32" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="55" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/ForceDirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="37" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/basicjava/test/iu4/shevchik/Swing/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="51" selection-start="933" selection-end="933" vertical-scroll-proportion="0.6106605">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#415#0" expanded="true" />
+            <element signature="e#460#466#0" expanded="true" />
           </folding>
         </state>
       </provider>
