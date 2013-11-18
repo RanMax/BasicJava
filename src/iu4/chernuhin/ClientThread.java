@@ -1,5 +1,7 @@
 package iu4.chernuhin;
 
+import java.net.Socket;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Макс
